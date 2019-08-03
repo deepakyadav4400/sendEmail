@@ -6,4 +6,5 @@
  3. npm install
  4. npm run-script build
  5. npm start
+ 6. Open http://localhost:3000/ in browser
 
