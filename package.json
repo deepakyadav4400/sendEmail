@@ -1,0 +1,31 @@
+{
+  "author": "Deepak Yadav",
+  "description": "",
+  "name": "myAngularApp",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.3.1",
+    "html-webpack-plugin": "^2.30.1",
+    "typescript": "^2.7.1",
+    "webpack": "^3.10.0",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "nodemailer": "^4.0.1"
+  }
+}
